@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var str = "127.0.0.1:3000";
+      var newstr = str.split(":");
+      console.log(newstr);
+      // newstr.pop();
+      // newstr.find((i) =>{
+      //   if(i === "3000"){
+      //      console.log(i);
+      //   }
+      // })
+      newstr.find(($) => $ === "3000" && console.log($));
+
+      // console.log(newstr.pop());
+    </script>
+    <style>
+      body {
+        text-align: center;
+        justify-content: center;
+      }
+      img {
+        width: 9rem;
+        height: 9rem;
+      }
+      div {
+        display: flex;
+        gap: "2px";
+      }
+    </style>
+    <div>
+      <!-- <img id="pic" src="" alt=""> -->
+    </div>
+    <script src="learn.js"></script>
+  </body>
+</html>
